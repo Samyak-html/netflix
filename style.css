@@ -1,0 +1,250 @@
+
+*{padding: 0;margin: 0; }
+body{
+    background-color: black;
+}
+.background_1{
+    background-image: url(background.jpg);
+    height: 120vh;
+    width: 100vw;
+    
+    }
+.overlay_black{
+    background-color: rgba(0, 0, 0, 0.822);
+    height: 120vh;
+    width:100wh;
+    display:flex;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.navbar{
+    /* display: flex; */
+    position: relative;
+    height: max-content;
+    width:100vw;
+    
+
+}
+.logo{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 8vh;
+    /* margin:3vh; */
+    margin-left: 10%;
+    /* height: 20vh; */
+    float: left;
+    max-height: 9vh;
+    min-height: 50px;
+    margin-top: 3vh;
+
+    
+}
+.logo:hover{
+    cursor:default;
+}
+.lang_select{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    height: 45px;
+     box-sizing: content-box;
+    text-align: center;
+    /* padding: 2vh; */
+    /* margin: 4vh; */
+    position: relative;
+    top: 1.7rem;
+    right: 2rem;
+    /* position: absolute; */
+    /* right: 380px; */
+    float:right;
+    width: 100px;
+   
+}
+button{
+    background-color: rgba(197, 33, 33, 0.993);
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10%;
+    border: none;
+     font-size: 100%; 
+    /*min-height: 13vh;
+    min-width: 21vh;*/
+    box-sizing: content-box;
+} 
+button:hover{
+    background-color: rgb(255, 32, 32);
+    cursor: pointer;
+}
+select:hover{
+    cursor: pointer;
+}
+.sign-in{
+    /* padding: 2vh; */
+    height: 50px;
+    /* margin: 4vh; */
+    position: relative;
+    right: 3rem;
+    width: 90px;
+    top:1.7rem;
+    /* box-sizing: border-box; */
+    float: right;
+    text-align: center;
+    
+}
+.speeches{
+height: 40vh;
+flex-direction: column;
+align-self: center;
+justify-content: center;
+width: 60vw;
+color: white;
+    text-align: center;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+box-sizing: content-box;
+}
+#unlimited_text{
+    
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10%;
+    font-size:5vw;
+    
+}
+#price-text{
+    font-weight: 40;
+    font-size: 3vh;
+}
+.searchbar_box{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    
+}  
+#searchbar{
+    background-color: rgba(0, 0, 0, 0.644);
+    border: 2px solid grey ;
+    border-radius: 2%;
+    margin-right: 5px;
+    height: 50px;
+    width: 360px;
+    color:white;
+    font-size: 1.3rem;
+} 
+#searchbar_button{
+    padding: vh;
+    
+}
+.background_2{
+    background-color:black;
+    height: 200vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    /* border :3px solid transparent;
+    border-top-color: purple;
+    position: relative;
+    
+    
+    border-top-left-radius: 5%;
+    border-top-right-radius:5%; */
+    
+    
+    /* border-top-right-radius:1% ;
+    position: relative;
+    /* border-top-left-radius: 100% ; 
+    border-top-left-radius: 1%;
+    bottom: 4vh; */
+    
+
+}
+.round_border{
+    height: 5vh;
+    width: 100%;
+    background:radial-gradient(radial-gradient( 50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100% ),black);
+    border: 5px solid red;
+    border-bottom: none;
+    border-top-right-radius: 50% 100%;
+    border-top-left-radius: 50% 100%;
+    scale: 1.2;
+}
+/* .line{
+    height: 1vh;
+    background-color: rgb(190, 5, 98);
+    width: 120%;
+    box-sizing: content-box;
+    position: relative;
+    border-top-right-radius:100% ;
+    position: relative;
+    border-top-left-radius: 100% ;
+    bottom: 1vh;
+    left: 3vh;
+} */
+.trending_box{
+    font-size:1.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 6vh;
+    font-weight: 900;
+}
+select{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    height: 45px;
+    box-sizing: content-box;
+    padding-left: 2vh;
+    
+    margin-bottom: 2vh;
+}
+option{
+    background-color: white;
+    color: black;
+}
+/* #trendingText{ */
+.content_box{
+    margin-top: 5vh;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.trending_contents{
+    margin: 2vh;
+    background-color: rgb(48, 47, 47);
+    height: 50vh;
+    width: 15vw;
+    border-radius: 13%;
+    position: relative;
+    transition:all;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.trending_number{
+    position: absolute;
+    top:24%;
+    margin-left: 2%;
+    /* right: 10 */
+    margin-right:3%;
+    font-size: 28vh;
+    box-sizing: border-box;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.06cap;
+    color: rgb(48, 47, 47);
+    box-sizing: border-box;
+}
+#tc_1{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size:cover;
+}
+.trending_contents:hover{
+    transform: scale(1.1);
+}
